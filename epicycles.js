@@ -85,6 +85,7 @@ function draw() {
     let coord = createVector(mouseX - width / 2, mouseY - height / 2 - 100); //creates coordinate at mouse position
     drawing.push(coord);
     noFill();
+    stroke(255, 255, 0);
     beginShape();
     for (let vect of drawing) {
       vertex(vect.x + width / 2, vect.y + width / 2) // adds vertex for each coord
