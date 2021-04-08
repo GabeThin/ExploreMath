@@ -79,6 +79,12 @@ function drawPath(fourierX, fourierY) { // draws path of user drawing
 function draw() {
   background(0);
 
+  stroke(180);
+  for (let i = 50; i < 1000; i += 50) {
+    for (let j = 50; j < 800; j += 50)
+      line(i, j);
+  }
+
   stroke(255);
 
   if (drawState == 0) { // if mouse is pressed:
