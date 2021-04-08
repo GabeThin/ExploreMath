@@ -24,7 +24,7 @@ class Vector {
 }
 
 function setup() {
-  createCanvas(800, 600); // creates black screen
+  createCanvas(1000, 800); // creates black screen
 }
 
 function dft(x) { // DFT algorithm to get wave properties
